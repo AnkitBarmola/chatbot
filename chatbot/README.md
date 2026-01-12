@@ -1,16 +1,46 @@
-# React + Vite
+# Chatbot (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is a small chatbot project created to learn and practice React concepts (components, state, props, event handling, and styling) using Vite as the dev tooling.
 
-Currently, two official plugins are available:
+**Purpose**
+- A learning project to experiment with building a simple chat UI and component-based React patterns.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**
+- Simple chat UI with message list and input
+- Message sender/receiver visual styles
+- Lightweight, focused codebase for learning and iteration
 
-## React Compiler
+**Tech stack**
+- React (JSX)
+- Vite (dev server + build)
+- Plain CSS for styling
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Getting started
 
-## Expanding the ESLint configuration
+1. Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+2. Start development server:
+
+```bash
+npm run dev
+```
+
+3. Open the app in your browser (usually http://localhost:5173).
+
+Notes
+
+- Avatar images referenced as `/robot.png` and `/user.png` are expected in the `public/` folder. If they are missing, add image files or swap for SVGs.
+- Styling lives in `src/App.css` and `src/index.css` — tweak these to practice layout and design.
+
+Contributing / Learning tips
+
+- Use this project to try: converting to TypeScript, adding accessibility improvements, or integrating a simple backend for persistence.
+- Open a PR or issue with any changes or questions.
+
+License
+
+This project is provided for learning purposes. Add a license if you plan to reuse it in other projects.
