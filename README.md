@@ -1,17 +1,14 @@
-Chatbot 
+## StickyNotes React
+A minimalist, high-contrast notes application built with React and Tailwind CSS. This app features a split-pane layout with a dark-themed input form and a visual "sticky note" gallery for your saved thoughts.
+## Preview-
 
-A basic chatbot built while learning React. This project is mainly for practice and understanding how components, state, props, and simple logic work together in a React application.
+## 🚀 Features
+Dual-Pane Interface: Easy entry on the left, instant preview on the right.
 
-I’m uploading this to GitHub to track my learning progress and improve it step by step.
+Sticky Note UI: Notes are rendered as realistic yellow sticky notes.
 
- Features- 
+Responsive Layout: Uses Tailwind's lg:flex to switch between stacked (mobile) and side-by-side (desktop) views.
 
-Simple chat interface
+State Management: Real-time note addition and deletion using React useState.
 
-User input handling
-
-Bot replies based on logic
-
-Built using React functional components
-
-Beginner-friendly code structure
+Scrollable Gallery: The notes section remains organized even with dozens of entries.
